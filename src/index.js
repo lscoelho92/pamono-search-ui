@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Search from "./Pages/Search";
+import Home from "./Pages/Home";
 import reportWebVitals from "./reportWebVitals";
 import "./Styles/default.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Search />
+    <Home />
   </React.StrictMode>,
   document.getElementById("root")
 );
