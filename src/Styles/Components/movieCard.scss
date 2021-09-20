@@ -1,0 +1,35 @@
+.movie-card {
+  width: 300px;
+  margin: 20px auto;
+  border: 3px solid #FFFFFF;
+
+  @media only screen and (max-width: 768px) {
+    width: 250px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .infos-container {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 10px 0;
+    }
+  }
+}
