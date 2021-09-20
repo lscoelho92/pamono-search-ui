@@ -31,7 +31,7 @@ function App() {
     <div id="searchPage">
       <div className="info-container">
         <img src={Logo} alt="Pamono Logo" />
-        <h1>Movie Search</h1>
+        <h1>Movies/Séries Search</h1>
         <p>Use the search below to find a movie</p>
 
         <form onSubmit={movieRequest}>
